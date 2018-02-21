@@ -7,7 +7,7 @@ from collections import Counter
 
 app = Flask(__name__)
 
-@app.route("/list")
+@app.route("/home")
 def hello():
     
     #print(request.method)
